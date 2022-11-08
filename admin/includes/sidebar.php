@@ -1,6 +1,6 @@
     <div class="sidebar-menu">
                     <header class="logo1">
-                      <span style="color:#000; font-size:26px; font-weight:bold">HBMS</span>
+                      <span style="color:#000; font-size:26px; font-weight:bold">Admin Panel</span>
                         <a href="#" class="sidebar-icon"><span class="fa fa-bars"></span> </a> 
                     </header>
                         <div style="border-top:1px ridge rgba(255, 255, 255, 0.15)"></div>
