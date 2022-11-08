@@ -7,7 +7,7 @@ include('includes/dbconnection.php');
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Booking Management System | Home :: Page</title>
+<title>River's edge Hotel</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 
@@ -56,7 +56,7 @@ include('includes/dbconnection.php');
 			
 		<div class="features">
 					<div class="container">
-						<h3>Services</h3>
+						<h3>Facilities</h3>
 							<div class="features-grids">
 								<?php
 $sql="SELECT * from tblfacility order by rand() limit 4";

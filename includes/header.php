@@ -21,7 +21,7 @@
                                     <li><a href="about.php">About</a></li>
                                     <li><a href="services.php">Facilities</a></li>
                                     <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rooms <span class="caret"></span></a>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accomodation <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <?php
 $ret="SELECT * from tblcategory";
