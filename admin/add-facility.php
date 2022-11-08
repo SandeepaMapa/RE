@@ -47,7 +47,7 @@ echo "<script>window.location.href ='add-facility.php'</script>";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Booking Management System | Add Facility</title>
+<title>River's edge Hotel-Add Facility</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->

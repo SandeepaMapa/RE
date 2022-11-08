@@ -40,7 +40,7 @@ $query->bindParam(':eid',$eid,PDO::PARAM_STR);
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Booking Management System | Edit Room</title>
+<title>River's edge Hotel-Edit Room</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
