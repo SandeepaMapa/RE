@@ -118,8 +118,7 @@ foreach($results as $row)
 								<h5>ID Type</h5>
 								<select  type="text" value="" class="form-control" name="idtype" required="true" class="form-control">
 									<option value="">Choose ID Type</option>
-									<option value="Voter Card">Voter Card</option>
-									<option value="Adhar Card">Adhar Card</option>
+									<option value="Voter Card">NIC card</option>
 									<option value="Driving Licence Card">Driving Licence Card</option>
 									<option value="Passport">Passport</option>
 									</select>
