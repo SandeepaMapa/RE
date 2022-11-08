@@ -36,9 +36,17 @@ if($query->rowCount() > 0)
 {
 foreach($results as $row)
 {               ?>
-							<h4><?php  echo htmlentities($row->PageTitle);?></h4>
-									
-								<p><?php  echo htmlentities($row->PageDescription);?></p>
+							<div class="col-lg-6 p-4 text-white">
+      
+							<h4>Quick Links</h4>
+      <a href="index.php" class=" text-white d-inline-block mb-2 text-dark text-decoration-none">Home</a><br>
+      <a href="about.php" class=" text-white d-inline-block mb-2 text-dark text-decoration-none">About</a><br>
+      <a href="book-room.php" class=" text-white d-inline-block mb-2 text-dark text-decoration-none">Rooms</a><br>
+      <a href="gallery.php" class= " text-white d-inline-block mb-2 text-dark text-decoration-none">Gallery</a><br>
+	  <a href="contact.php" class= " text-white d-inline-block mb-2 text-dark text-decoration-none">Contacts</a><br>
+	  
+      
+    </div>
 								
 							</div><?php $cnt=$cnt+1;}} ?>
 							<div class="clearfix"></div>
