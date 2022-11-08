@@ -57,37 +57,37 @@ include('includes/dbconnection.php');
 		<div class="features">
 					<div class="container">
 						<h3>Facilities</h3>
-							<div class="features-grids">
-								<?php
-$sql="SELECT * from tblfacility order by rand() limit 4";
-$query = $dbh -> prepare($sql);
-$query->execute();
-$results=$query->fetchAll(PDO::FETCH_OBJ);
+						<br><br><br>
 
-$cnt=1;
-if($query->rowCount() > 0)
-{
-foreach($results as $row)
-{               ?>
-								<div class="col-md-3 feature-grid">
-								<div class="feature">
-									
-									<div class="feature1">
-										<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-										<h4><?php  echo htmlentities($row->FacilityTitle);?></h4>
-									</div>
-									<div class="feature2">
-										<p><?php  echo htmlentities($row->Description);?>. </p>
-									</div>
-								</div>
-								</div>
-								<?php $cnt=$cnt+1;}} ?>
+<div class="container">
+  <div class="row justify-content-evenly px-lg-0 px-md-0 px-5">
+    <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+      <img src="Photos/Facilities/wifi-logo-svgrepo-com.svg" alt="Wi-Fi" width="100">
+      <h5>Wi-Fi</h5>
+    </div>
+    <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+      <img src="Photos/Facilities/hot-water.svg" alt="Hot water" width="100">
+      <h5>Hot Water</h5>
+    </div>
+    <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+      <img src="Photos/Facilities/swimming-pool-2711.svg" alt="Pool" width="100">
+      <h5>Pool</h5>
+    </div>
+    <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+      <img src="Photos/Facilities/bar.svg" alt="Bar" width="70">
+      <h5>Bar</h5>
+    </div>
+	
+  </div>
+</div>
+								
 								
 								
 									<div class="clearfix"></div>
 							</div>
 					</div>
 				</div>
+				<br><br><br>
 	<!-- slider -->
 	<div class="slider1">
 		<div class="arrival-grids">			 
@@ -145,7 +145,7 @@ foreach($results as $row)
 				</script>
 				<script type="text/javascript" src="js/jquery.flexisel.js"></script>			 
 		</div>
-	</div>
+	</div><br><br>
 	<!-- //slider -->
 		
 				<!--GET IN TOUCH-->
