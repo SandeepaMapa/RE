@@ -94,7 +94,7 @@ body{
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #5ab645
+    background-color: #002B5B;
 }
 .navbar {
     position: relative;

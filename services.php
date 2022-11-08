@@ -56,7 +56,7 @@ foreach($results as $row)
 				<div class="col-md-6 services-grid">
 					<br />
 					<div class="col-md-5 serv-img">
-						<img src="Photos\Facilities\<?php echo $row->photo;?>" height="300" width="300" alt="" class="img-responsive">
+						<img src="admin/images/<?php echo $row->Image;?>" height="300" width="300" alt="" class="img-responsive">
 					</div><br />
 					<div class="col-md-6 serv-text">
 						<h4><?php  echo htmlentities($row->FacilityTitle);?> </h4>

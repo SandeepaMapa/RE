@@ -35,6 +35,23 @@
                                     <?php } ?> 
                                 </ul>
                                     </li>
+
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Restaurant <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <?php
+                                      $ret="SELECT * from tblrescategory";
+                                      $query1 = $dbh -> prepare($ret);
+                                      $query1->execute();
+                                      $resultss=$query1->fetchAll(PDO::FETCH_OBJ);
+                                      foreach($resultss as $rows)
+                                    {  
+                                                     ?>
+                                   <li><a href="category-details.php?catid=<?php echo htmlentities($rows->ID)?>"><?php echo htmlentities($rows->CategoryName)?></a></li>
+                                    <?php } ?> 
+                                </ul>
+                                    </li>
+
                                     <li><a href="gallery.php">Gallery</a></li>
                                     <li><a href="contact.php">Contact</a></li>
                                      <?php if (strlen($_SESSION['hbmsuid']==0)) {?>
