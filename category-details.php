@@ -106,65 +106,7 @@ foreach($results as $row)
 				</div>
 				<!--rooms-->
 
-				<!--Restaurant-->
-			<div class="content">
-					<div class="room-section">
-						<div class="container">
-						<h2>Restaurant Details</h2><br><br><br>
-							<div class="room-grids">
-								<?php
-								$cid=intval($_GET['catid']);
-$sql="SELECT tblres.*,tblres.id as resid , tblrescategory.Price,tblrescategory.ID,tblrescategory.CategoryName from tblres 
-join tblrescategory on tblres.Type=tblrescategory.ID 
-where tblres.Type=:cid";
-$query = $dbh -> prepare($sql);
-$query-> bindParam(':cid', $cid, PDO::PARAM_STR);
-$query->execute();
-$results=$query->fetchAll(PDO::FETCH_OBJ);
-
-$cnt=1;
-if($query->rowCount() > 0)
-{
-foreach($results as $row)
-{               ?>
-                              
-
-
-		 <div class='card mb-3 border-1 shadow'>
-            <div class='row g-0 p-3 align-items-center'>
-              <div class='col-md-5 mb-lg-0 mb-md-0 mb-3'>
-			  <img src="admin/images/<?php echo $row->Image;?>" class=" mask img-responsive zoom-img" alt="" />
-              </div>
-              <div class='col-md-5 px-lg-4 px-md-3 px-0'>
-			  <h4> <?php  echo htmlentities($row->Type);?> </h4><br>
-			  <p><?php  echo htmlentities($row->Description);?></p><br>
-                 <div class='facilities mb-3'>
-                    <hp class='mb-1'>Room Facilities : </hp>
-                    <?php  echo htmlentities($row->RoomFacility);?>
-                  </div><br>
-				  <div class='guests mb-3'>
-                    <hp class='mb-1'>Guests : </hp>
-                    <?php  echo htmlentities($row->MaxNumber);?> No of Seats &nbsp;
-					
-                  </div>
-                  <br>
-				  
-             </div>   
-             
-            </div>
-          </div>
-
-
-
-								<div class="clearfix"></div>
-							</div><?php $cnt=$cnt+1;}} ?>
-						
-					
-						<div class="clearfix"></div>
-						</div>
-					</div>
-				</div>
-				<!--restaurant-->
+			
 				<?php include_once('includes/getintouch.php');?>
 			</div>
 			<!--footer-->
