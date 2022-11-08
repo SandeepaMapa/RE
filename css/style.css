@@ -4,6 +4,8 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
+
 @font-face {
     font-family: 'Rancho-Regular';
     src:url(../fonts/Rancho-Regular.ttf) format('truetype');
@@ -1345,6 +1347,11 @@ span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-camera, span.glyphicon.g
 .header-top {
     padding: 1em 0;
 }
+
+.navbar{
+    background-color: #012e62;
+     font-size:17px;
+    }
 .navbar-brand {
     padding: 0px 0px;
 }

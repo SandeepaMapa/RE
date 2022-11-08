@@ -10,7 +10,8 @@ include('includes/dbconnection.php');
 <title>Hotel Booking Management System | Hotel :: Single Rooms</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="css/lightbox.css">
+<link rel="stylesheet" href="">
+
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script src="js/jquery-1.11.1.min.js"></script>
@@ -41,7 +42,7 @@ include('includes/dbconnection.php');
 			<div class="content">
 					<div class="room-section">
 						<div class="container">
-						<h2>Rooms Details</h2>
+						<h2>Rooms Details</h2><br><br><br>
 							<div class="room-grids">
 								<?php
 								$cid=intval($_GET['catid']);
@@ -58,22 +59,42 @@ if($query->rowCount() > 0)
 {
 foreach($results as $row)
 {               ?>
-							<div class="room1">
-								<div class="col-md-5 room-grid" style="padding-bottom: 50px">
-								<a href="#" class="mask">
-									<img src="admin/images/<?php echo $row->Image;?>" class=" mask img-responsive zoom-img" alt="" /></a>
-									
-								</div>
-								<div class="col-md-7 room-grid1">
-									<h4> <?php  echo htmlentities($row->FacilityTitle);?> </h4>
-									<p><?php  echo htmlentities($row->RoomDesc);?></p>
-									<p>Max Adult:<?php  echo htmlentities($row->MaxAdult);?></p>
-									<p>Max Child:<?php  echo htmlentities($row->MaxChild);?></p>
-									<p>No of Beds:<?php  echo htmlentities($row->NoofBed);?></p>
-									<p>Room Facilities:<?php  echo htmlentities($row->RoomFacility);?></p>
-									<p>Price: <?php  echo htmlentities($row->Price);?></p>
-									<button class="btn btn-success"><a href="book-room.php?rmid=<?php echo $row->rmid;?>">Book</a></button>
-								</div>
+                              
+
+
+		 <div class='card mb-3 border-1 shadow'>
+            <div class='row g-0 p-3 align-items-center'>
+              <div class='col-md-5 mb-lg-0 mb-md-0 mb-3'>
+			  <img src="admin/images/<?php echo $row->Image;?>" class=" mask img-responsive zoom-img" alt="" />
+              </div>
+              <div class='col-md-5 px-lg-4 px-md-3 px-0'>
+			  <h4> <?php  echo htmlentities($row->RoomName);?> </h4><br>
+			  <p><?php  echo htmlentities($row->RoomDesc);?></p><br>
+                 <div class='facilities mb-3'>
+                    <hp class='mb-1'>Room Facilities : </hp>
+                    <?php  echo htmlentities($row->RoomFacility);?>
+                  </div><br>
+				  <div class='guests mb-3'>
+                    <hp class='mb-1'>Guests : </hp>
+                    <?php  echo htmlentities($row->MaxAdult);?> Adults &nbsp;
+					<?php  echo htmlentities($row->MaxChild);?> Children
+                  </div>
+                  <br>
+				  <div class='beds mb-3'>
+                    <hp class='mb-1'>No.of beds : </hp>
+                    <?php  echo htmlentities($row->NoofBed);?>
+                  </div>
+             </div>   
+             <div class='col-md-2 mt-lg-0 mt-md-0 mt-4 text-center'>
+              <p class='mb-4'>Rs. <?php  echo htmlentities($row->price);?> per night</p><br>
+              <button class="btn btn-success"><a href="book-room.php?rmid=<?php echo $row->rmid;?>"  class='btn btn-sm w-100 text-white custom-bg shadow-none mb-2'>Book Now</a></button>
+			
+                
+                 </div>
+            </div>
+          </div>
+
+
 
 								<div class="clearfix"></div>
 							</div><?php $cnt=$cnt+1;}} ?>
