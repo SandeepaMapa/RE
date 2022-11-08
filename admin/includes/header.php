@@ -23,7 +23,7 @@
                             <div class="header">
                                 <div class="head-t">
                                     <div class="logo">
-                                        <a href="dashboard.php" style="font-size: 20px;color: red">Hotel Booking Management System </a>
+                                        <a href="dashboard.php" style="font-size: 20px;color: blue">Rivers edge  </a>
                                     </div>
                                         <!-- start header_right -->
                                     
