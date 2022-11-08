@@ -93,27 +93,27 @@ foreach($results as $row)
 		<div class="arrival-grids">			 
 			 <ul id="flexiselDemo1">
 				 <li>
-					 <a href="index.php"><img src="images/s1.jpg" alt=""/>
+					 <a href="index.php"><img src="Photos\Gallery\e1.jpg" alt=""/>
 					 </a>
 				 </li>
 				 <li>
-					 <a href="index.php"><img src="images/s2.jpg" alt=""/>
+					 <a href="index.php"><img src="Photos\Gallery\e2.jpg" alt=""/>
 					 </a>
 				 </li>
 				 <li>
-					 <a href="index.php"><img src="images/s3.jpg" alt=""/>
+					 <a href="index.php"><img src="Photos\Gallery\e3.jpg" alt=""/>
 					 </a>
 				 </li>
 				 <li>
-					 <a href="index.php"><img src="images/s4.jpg" alt=""/>
+					 <a href="index.php"><img src="Photos\Gallery\e4.jpg" alt=""/>
 					 </a>
 				 </li>
 				 <li>
-					 <a href="index.php"><img src="images/s5.jpg" alt=""/>
+					 <a href="index.php"><img src="Photos\Gallery\r1.jpg" alt=""/>
 					 </a>
 				 </li>
 				 <li>
-					 <a href="index.php"><img src="images/s6.jpg" alt=""/>
+					 <a href="index.php"><img src="Photos\Gallery\r3.jpg" alt=""/>
 					 </a>
 				 </li>
 				</ul>
