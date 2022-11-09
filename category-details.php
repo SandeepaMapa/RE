@@ -10,9 +10,9 @@ include('includes/dbconnection.php');
 <title>Hotel Booking Management System | Hotel :: Single Rooms</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="css/lightbox.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="">
+
+
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
@@ -86,7 +86,7 @@ foreach($results as $row)
                   </div>
              </div>   
              <div class='col-md-2 mt-lg-0 mt-md-0 mt-4 text-center'>
-              <p class='mb-4'>Rs. per night  <?php  echo htmlentities($row->price);?></p><br>
+              <p class='mb-4'>Rs. <?php  echo htmlentities($row->price);?> per night</p><br>
               <button class="btn btn-success"><a href="book-room.php?rmid=<?php echo $row->rmid;?>"  class='btn btn-sm w-100 text-white custom-bg shadow-none mb-2'>Book Now</a></button>
 			
                 
