@@ -187,7 +187,7 @@ $totregusers=$query1->rowCount();
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom:1px;">
                             <div class="content-top-1">
-                                <h4 class="text-left text-uppercase" style="color: red"><a href="read-enquiry.php"><b>Read Enquries</b></a></h4>
+                                <h4 class="text-left text-uppercase" style="color: red"><a href="read-enquiry.php"><b>Read Enquiries</b></a></h4>
                                 <div class="row vertical-center-box vertical-center-box-tablet">
                                 	<?php 
 						$sql1 ="SELECT * from  tblcontact where Isread='1'";
@@ -210,7 +210,7 @@ $totreadqueries=$query1->rowCount();
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                             <div class="content-top-1">
-                                <h4 class="text-left text-uppercase" style="color: magenta"><a href="unread-enquiry.php"><b>Unread Enquries</b></a></h4>
+                                <h4 class="text-left text-uppercase" style="color: magenta"><a href="unread-enquiry.php"><b>Unread Enquiries</b></a></h4>
                                 <div class="row vertical-center-box vertical-center-box-tablet">
                                 	<?php 
 						$sql1 ="SELECT * from  tblcontact where Isread is null";

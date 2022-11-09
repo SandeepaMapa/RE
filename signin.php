@@ -10,7 +10,7 @@ if(isset($_POST['login']))
     $sql ="SELECT ID FROM tbluser WHERE Email=:email and Password=:password";
     $query=$dbh->prepare($sql);
     $query->bindParam(':email',$email,PDO::PARAM_STR);
-$query-> bindParam(':password', $password, PDO::PARAM_STR);
+    $query-> bindParam(':password', $password, PDO::PARAM_STR);
     $query-> execute();
     $results=$query->fetchAll(PDO::FETCH_OBJ);
     if($query->rowCount() > 0)

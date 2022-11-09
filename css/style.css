@@ -4,8 +4,6 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-
-
 @font-face {
     font-family: 'Rancho-Regular';
     src:url(../fonts/Rancho-Regular.ttf) format('truetype');
@@ -47,7 +45,7 @@ body{
 	font-family: 'OpenSans-Regular'
 }
 .header-top {
-    margin-top: 10px;
+    margin-top: 1em;
 }
 .navbar-brand {
     float: left;
@@ -94,7 +92,7 @@ body{
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #002B5B;
+    background-color: #5ab645
 }
 .navbar {
     position: relative;
@@ -272,7 +270,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .features {
     text-align: center;
     padding: 4em 0;
-	background:#fff;
+	background:#eee;
 }
 .feature {
     background: #fff;
@@ -508,7 +506,7 @@ ul#flexiselDemo1 li a h4:hover{
 .footer-section{
 	padding:2em 0;
 	text-align:center;
-	background: #002B5B;
+	background: #011D4A
 }
 .footer-top p {
 	font-size: 0.9em;
@@ -1347,11 +1345,6 @@ span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-camera, span.glyphicon.g
 .header-top {
     padding: 1em 0;
 }
-
-.navbar{
-    background-color: #012e62;
-     font-size:17px;
-    }
 .navbar-brand {
     padding: 0px 0px;
 }

@@ -110,7 +110,7 @@ foreach($results as $row)
     <th>Room Type</th>
     <td><?php  echo $row->CategoryName;?></td>
     <th>Room Price(perday)</th>
-    <td>$<?php  echo $row->Price;?></td>
+    <td>Rs.<?php  echo $row->Price;?></td>
   </tr>
  
  <tr>
