@@ -54,7 +54,7 @@ echo "<script>window.location.href ='index.php'</script>";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Booking Management System | Hotel :: Book Room</title>
+<title>River's Edge :: Book Room</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 

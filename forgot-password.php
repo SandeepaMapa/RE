@@ -33,7 +33,7 @@ echo "<script>alert('Email id or Mobile no is invalid');</script>";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Booking Management System | Hotel :: Forgot Password Page</title>
+<title>River's edge | Hotel :: Forgot Password Page</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 

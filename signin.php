@@ -29,7 +29,7 @@ echo "<script>alert('Invalid Details');</script>";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Booking Management System | Hotel :: Login Page</title>
+<title>River's edge | Hotel :: Login Page</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 

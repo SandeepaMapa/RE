@@ -22,7 +22,7 @@ $query->execute();
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Booking Management System | Add Category</title>
+<title>River's edge | Add Category</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->

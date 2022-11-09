@@ -7,7 +7,7 @@ include('includes/dbconnection.php');
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Booking Management System | Hotel :: Gallery</title>
+<title>River's edge | Hotel :: Gallery</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="css/lightbox.css">
@@ -35,7 +35,7 @@ include('includes/dbconnection.php');
 				<div class="gallery-grids-top">
 					<div class="gallery-grids">
 						<?php
-$sql="SELECT * from tblroom";
+$sql="SELECT * from tblgallery";
 $query = $dbh -> prepare($sql);
 $query->execute();
 $results=$query->fetchAll(PDO::FETCH_OBJ);
@@ -47,7 +47,7 @@ foreach($results as $row)
 {               ?>
 						<div class="col-md-3 gallery-grid">
 							<br />
-							<a class="example-image-link" href="admin/images/<?php echo $row->Image;?>" data-lightbox="example-set" data-title=""><img class="example-image" src="admin/images/<?php echo $row->Image;?>" height="300" width="300" alt=""/></a>
+							<a class="example-image-link" href="admin/images/<?php echo $row->img;?>" data-lightbox="example-set" data-title=""><img class="example-image"  src="admin/images/<?php echo $row->img;?>" height="300" width="400" alt=""/></a>
 						</div><?php $cnt=$cnt+1;}} ?>
 						
 						

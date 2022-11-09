@@ -10,7 +10,7 @@ if (strlen($_SESSION['hbmsaid']==0)) {
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Booking Management System | Unread Enquiry</title>
+<title>River's edge | Unread Enquiry</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->

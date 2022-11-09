@@ -37,19 +37,19 @@ include('includes/dbconnection.php');
 			<div class="callbacks_container">
 				  <ul class="rslides" id="slider">
 						 <li>	          
-							<h3>great choice of  <span>hotels</span> </h3>
+							<h3>great choice of  hotels</h3>
 						 </li>
 						 <li>	          
-							<h3>best rates  <span>guaranteed</span> </h3>  
+							<h3>best rates guaranteed</h3>  
 						 </li>
 						 <li>	          
-							 <h3>the best place to <span>relax</span> </h3>
+							 <h3>the best place to relax </h3>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div><br><br><br>
 <!--header-->
 
 		<div class="content">
@@ -66,7 +66,7 @@ include('includes/dbconnection.php');
       <h4>Wi-Fi</h4>
     </div>
     <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
-      <img src="Photos/Facilities/hot-water.svg" alt="Hot water" width="100">
+      <img src="Photos\Facilities\24-512.webp" alt="Hot water" width="100">
       <h4>Hot Water</h4>
     </div>
     <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
@@ -76,6 +76,10 @@ include('includes/dbconnection.php');
     <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
       <img src="Photos/Facilities/bar.svg" alt="Bar" width="70">
       <h4>Bar</h4>
+    </div>
+	<div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+      <img src="Photos\Facilities\75905-preview.png" alt="Bar" width="70"><br>
+      <h4>Parking</h4>
     </div>
 	
   </div>
@@ -149,7 +153,7 @@ include('includes/dbconnection.php');
 	<!-- //slider -->
 	<div class="features">
 	<h3>Reach us</h3><br>
-			</div>
+			
 <div class="container">
   <div class="row">
     <div class=""></div>
@@ -157,6 +161,7 @@ include('includes/dbconnection.php');
     </div>
   </div>
 </div>
+	  </div>
 		<br><br><br>
 				<!--GET IN TOUCH-->
 					<?php include_once('includes/getintouch.php');?>

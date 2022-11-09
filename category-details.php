@@ -7,7 +7,7 @@ include('includes/dbconnection.php');
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Booking Management System | Hotel :: Single Rooms</title>
+<title>River's edge | Hotel :: Single Rooms</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="">

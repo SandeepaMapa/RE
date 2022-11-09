@@ -43,7 +43,7 @@ echo "<script>alert('Invalid Details');</script>";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Booking Management System | login page</title>
+<title>River's edge | login page</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->

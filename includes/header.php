@@ -36,6 +36,7 @@
                                 </ul>
                                     </li>
                                     <li><a href="gallery.php">Gallery</a></li>
+                                    
                                     <li><a href="contact.php">Contact</a></li>
                                      <?php if (strlen($_SESSION['hbmsuid']==0)) {?>
                                     <li><a href="admin/login.php">Admin</a></li>

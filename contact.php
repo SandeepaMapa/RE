@@ -37,7 +37,7 @@ echo "<script>window.location.href ='contact.php'</script>";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Booking Management System | Hotel :: Contact Us</title>
+<title>River's edge | Hotel :: Contact Us</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 

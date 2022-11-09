@@ -44,7 +44,7 @@ echo "<script>alert('Email-id already exist. Please try again');</script>";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Booking Management System | Hotel :: Sign Up</title>
+<title>River's edge | Hotel :: Sign Up</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 
@@ -94,7 +94,7 @@ echo "<script>alert('Email-id already exist. Please try again');</script>";
 								<h5>Password</h5>
 								<input type="password" value="" class="form-control" name="password" required="true">
 								<br />
-								<a href="signin.php" style="color: red">Signin</a>
+								<a href="signin.php" style="color: red">Already a user? Sign in</a>
 								<br/>
 								 <input type="submit" value="Sign Up" name="submit">
 						 	 </form>

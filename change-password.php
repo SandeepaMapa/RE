@@ -41,7 +41,7 @@ echo '<script>alert("Your current password is wrong")</script>';
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Booking Management System | Hotel :: Change Password</title>
+<title>River's edge| Hotel :: Change Password</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 
