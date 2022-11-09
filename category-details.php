@@ -92,11 +92,11 @@ foreach($results as $row)
                 
                  </div>
             </div>
-          </div>
+          </div><br><br><hr>
 
 
 
-								<div class="clearfix"></div>
+								<div class="clearfix"></div><br>
 							</div><?php $cnt=$cnt+1;}} ?>
 						
 					
