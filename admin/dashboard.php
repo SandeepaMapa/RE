@@ -47,7 +47,7 @@ if (strlen($_SESSION['hbmsaid']==0)) {
             });
 
             $('#demo-pie-2').pieChart({
-                barColor: '#',
+                barColor: '#fbb03b',
                 trackColor: '#eee',
                 lineCap: 'butt',
                 lineWidth: 8,
