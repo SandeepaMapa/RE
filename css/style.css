@@ -1126,12 +1126,12 @@ address {
     margin: 18em 0 0;
 }
 .header {
-    min-height: 500px;
+    min-height: 679px;
 }
 }
 @media (max-width:1366px){
 .header {
-    min-height: 500px;
+    min-height: 652px;
 }
 .slider {
     margin: 16em 0 0;
@@ -1139,7 +1139,7 @@ address {
 }
 @media (max-width:1280px){
 .header {
-    min-height: 500px;
+    min-height: 602px;
 }
 .slider {
     margin: 14em 0 0;
@@ -1147,7 +1147,7 @@ address {
 }
 @media (max-width:1080px){
 .header {
-    min-height: 500px;
+    min-height: 486px;
 }
 .slider {
     margin: 12em 0 0;
