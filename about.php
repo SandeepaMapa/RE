@@ -52,7 +52,7 @@ if($query->rowCount() > 0)
 foreach($results as $row)
 {               ?>
 				<h2><?php  echo htmlentities($row->PageTitle);?></h2>
-				<img src="images/p1.jpg" class="img-responsive" alt="/">
+				<img src="images\3rd dec.jpg" class="img-responsive" alt="/">
 				<h5><?php  echo htmlentities($row->PageTitle);?></h5>
 				<p><?php  echo htmlentities($row->PageDescription);?>.</p>
 				<?php $cnt=$cnt+1;}} ?>
