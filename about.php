@@ -7,7 +7,7 @@ include('includes/dbconnection.php');
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel Booking Management System | About Us :: Page</title>
+<title>River's Edge  | About Us :: Page</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 
@@ -52,8 +52,8 @@ if($query->rowCount() > 0)
 foreach($results as $row)
 {               ?>
 				<h2><?php  echo htmlentities($row->PageTitle);?></h2>
-				<img src="images\Hotel Images\view2.jpg" class="img-responsive" alt="/" class="w-100">
-				<h5><?php  echo htmlentities($row->PageTitle);?></h5>
+				<img src="images\Hotel Images\view2.jpg" class="img-responsive" alt="/" class="w-100"><br><br>
+				<h4><?php  echo htmlentities($row->PageTitle);?></h4>
 				<p><?php  echo htmlentities($row->PageDescription);?>.</p>
 				<?php $cnt=$cnt+1;}} ?>
 			</div>

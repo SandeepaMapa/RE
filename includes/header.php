@@ -10,7 +10,7 @@
                                             <span class="icon-bar"></span>
                                       </button>
                                     <div class="navbar-brand">
-                                        <h1><a href="index.php">River's Edge</a></h1>
+                                        <h1><a href="index.php"><img src="Photos\logo neww.png" height="80px" alt="/" ></a></h1>
                                     </div>
                                 </div>
 
