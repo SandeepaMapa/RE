@@ -1,4 +1,4 @@
-    <div class="header-top">
+<div class="header-top">
                         <nav class="navbar navbar-default">
                             <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -24,12 +24,13 @@
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accomodation <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <?php
-$ret="SELECT * from tblcategory";
-$query1 = $dbh -> prepare($ret);
-$query1->execute();
-$resultss=$query1->fetchAll(PDO::FETCH_OBJ);
-foreach($resultss as $rows)
-{               ?>
+                                      $ret="SELECT * from tblcategory";
+                                      $query1 = $dbh -> prepare($ret);
+                                      $query1->execute();
+                                      $resultss=$query1->fetchAll(PDO::FETCH_OBJ);
+                                      foreach($resultss as $rows)
+                                    {  
+                                                     ?>
                                    <li><a href="category-details.php?catid=<?php echo htmlentities($rows->ID)?>"><?php echo htmlentities($rows->CategoryName)?></a></li>
                                     <?php } ?> 
                                 </ul>

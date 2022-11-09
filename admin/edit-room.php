@@ -158,6 +158,7 @@ foreach($result2 as $row2)
                                                     <div class="form-group"> <label for="exampleInputEmail1">Max Child</label> <input type="text" class="form-control" name="maxchild" value="<?php  echo $row->MaxChild;?>" required='true'> </div>
                                                     <div class="form-group"> <label for="exampleInputEmail1">Room Description</label> <textarea type="text" class="form-control" name="roomdes"><?php  echo $row->RoomDesc;?></textarea> </div>
                                                     <div class="form-group"> <label for="exampleInputEmail1">No. of Bed</label> <input type="text" class="form-control" name="nobed" value="<?php  echo $row->NoofBed;?>" required='true'> </div>
+													<div class="form-group"> <label for="exampleInputEmail1">Price</label> <input placeholder="Rs." type="text" class="form-control" name="price" value="<?php  echo $row->price;?>" required='true'> </div>
 										<div class="form-group"> <label for="exampleInputEmail1">Room Image</label> &nbsp;&nbsp;
 <img src="images/<?php echo $row->Image;?>" width="100" height="100" value="<?php  echo $row->Image;?>">
 <a href="changeimage.php?editid=<?php echo $row->ID;?>"> &nbsp; Edit Image</a>
